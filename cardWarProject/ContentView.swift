@@ -9,8 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Card Game: War.")
+        ZStack {
+            Image("background")
+            
+            VStack {
+                Image("logo")
+                
+                HStack {
+                    Image("card5")
+                    Image("card5")
+                }
+                Button {
+                    print("Button Clicked")
+                } label: {
+                    Image("dealbutton")
+                }
+                
+                HStack {
+                    VStack {
+                        Text("BabyGirl")
+                        Text("0")
+                    }
+                    VStack {
+                        Text("Kitten")
+                        Text("0")
+                    }
+                }
+            }
         }
     }
 }
