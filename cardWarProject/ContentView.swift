@@ -39,13 +39,27 @@ struct ContentView: View {
                 HStack {
                     Spacer()
                     VStack {
-                        Text("BabyGirl")
+                        Text("Babygirl")
+                            .font(
+                            .headline)
+                            .foregroundColor(Color
+                            .white)
+                            .padding(.bottom, 10.0)
                         Text("0")
+                            .font(.largeTitle)
+                            .foregroundColor(Color .white)
                     }
                     Spacer()
                     VStack {
                         Text("Kitten")
+                            .font(
+                            .headline)
+                            .foregroundColor(Color
+                            .white)
+                            .padding(.bottom, 10.0)
                         Text("0")
+                            .font(.largeTitle)
+                            .foregroundColor(Color .white)
                     }
                     Spacer()
                 }
