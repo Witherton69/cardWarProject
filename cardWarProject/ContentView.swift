@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  cardWarProject
+//  WarCardGame
 //
-//  Created by Katelyn Gosnell on 2/17/23.
+//  Created by Witherton on 2/17/23.
 //
 
 import SwiftUI
